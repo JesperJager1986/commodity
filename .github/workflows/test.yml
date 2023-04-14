@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: GitHub Actions
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
@@ -16,3 +16,11 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: The overall test
+        run: test test test
+  The next best thing:
+    run-on ubuntu-latest:
+    steps:
+      - name: test
+        -run: echo my life
+
