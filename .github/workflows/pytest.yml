@@ -1,0 +1,2 @@
+name: pytest
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
