@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "commodity"
+version = "0.1.0"
+description = ""
+authors = ["JesperJager1986 <jesperjag86@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
