@@ -19,7 +19,7 @@ jobs:
       - name: The overall test
         run: test test test
   The next best thing:
-    run-on ubuntu-latest:
+    runs-on: ubuntu-latest:
     steps:
       - name: test
         -run: echo my life
